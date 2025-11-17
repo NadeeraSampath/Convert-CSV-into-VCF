@@ -1,0 +1,46 @@
+How to Use Convert-CSV-into-VCF Converter (convert_csv.py)
+----------------------------------------------------------
+
+1️⃣ Update the csv file with correct information
+
+
+2️⃣ Ensure Python Is Installed
+
+	Open a terminal (or PowerShell / Command Prompt) and type:
+    			python --version
+
+	If not, download Python from https://www.python.org/downloads/ and install it.
+	(During installation, check the box that says “Add Python to PATH.”)
+
+
+3️⃣ Navigate to the Folder
+
+	In Command Prompt or PowerShell:
+   			cd "path\to\Convert-CSV-into-VCF"
+
+
+4️⃣ Run the Script
+
+	python convert_csv.py
+
+
+5️⃣ Check the Output
+
+	After running, you should see a new file:
+    			contacts.vcf
+
+That’s your vCard file. You can open it with any text editor to verify, or import it into:
+	- Android Contacts
+	- iPhone Contacts (via iCloud import)
+	- Outlook / Thunderbird, etc.
+
+
+6️⃣ Common Issues & Fixes
+
+| Issue | Cause | Fix |
+| python: command not found | Python not installed or PATH not set | Reinstall Python and enable “Add to PATH” |
+| ModuleNotFoundError | Missing library | Run pip install pandas (or what the error says) |
+| FileNotFoundError | Wrong file name or path | Ensure contacts.csv is in same folder or use full path |
+
+
+THANK YOU!
